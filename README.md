@@ -75,3 +75,9 @@ npm run dev
 ## Notes
 - GeoJSON is currently loaded from local sample data for MVP.
 - Product links use manual `content_id -> sku -> priority` mapping; can later swap to Magento GraphQL.
+
+## Test URLs
+- `http://localhost:3000/en/test`
+- `http://localhost:3000/th/test`
+- `http://localhost:3000/en/browse`
+- `http://localhost:3000/en/france`
