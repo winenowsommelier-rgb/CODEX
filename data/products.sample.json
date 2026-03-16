@@ -1,0 +1,26 @@
+[
+  {
+    "sku": "WN-CHB-001",
+    "name": "Domaine des Marronniers Chablis",
+    "image": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=400",
+    "priceTHB": 1490,
+    "url": "https://www.wine-now.example/products/WN-CHB-001",
+    "regionContentIds": ["subregion-chablis-area", "appellation-chablis-aoc"]
+  },
+  {
+    "sku": "WN-CHB-002",
+    "name": "Louis Jadot Chablis",
+    "image": "https://images.unsplash.com/photo-1470158499416-75be9aa0c4db?w=400",
+    "priceTHB": 1790,
+    "url": "https://www.wine-now.example/products/WN-CHB-002",
+    "regionContentIds": ["appellation-chablis-aoc"]
+  },
+  {
+    "sku": "WN-BRG-003",
+    "name": "Burgundy Chardonnay Reserve",
+    "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400",
+    "priceTHB": 1290,
+    "url": "https://www.wine-now.example/products/WN-BRG-003",
+    "regionContentIds": ["region-burgundy"]
+  }
+]

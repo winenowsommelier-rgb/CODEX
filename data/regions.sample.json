@@ -1,0 +1,110 @@
+[
+  {
+    "id": "country-france",
+    "type": "country",
+    "parentId": null,
+    "slug": "france",
+    "name_en": "France",
+    "name_th": "ฝรั่งเศส",
+    "description_en": "France is one of the world's most influential wine-producing countries.",
+    "description_th": "ฝรั่งเศสเป็นหนึ่งในประเทศผู้ผลิตไวน์ที่ทรงอิทธิพลที่สุดของโลก",
+    "hierarchy": ["france"],
+    "facts": { "climate": "Continental to Mediterranean" },
+    "center": [2.2137, 46.2276]
+  },
+  {
+    "id": "region-burgundy",
+    "type": "region",
+    "parentId": "country-france",
+    "slug": "burgundy",
+    "name_en": "Burgundy",
+    "name_th": "เบอร์กันดี",
+    "description_en": "Burgundy is famous for terroir-driven Pinot Noir and Chardonnay.",
+    "description_th": "เบอร์กันดีมีชื่อเสียงด้าน Pinot Noir และ Chardonnay ที่สะท้อนเทอรัวร์",
+    "hierarchy": ["france", "burgundy"],
+    "facts": { "grapes": ["Pinot Noir", "Chardonnay"] },
+    "center": [4.85, 47.0]
+  },
+  {
+    "id": "subregion-chablis-area",
+    "type": "subregion",
+    "parentId": "region-burgundy",
+    "slug": "chablis",
+    "name_en": "Chablis",
+    "name_th": "ชาบลิส",
+    "description_en": "Northern Burgundy area known for mineral Chardonnay.",
+    "description_th": "พื้นที่ตอนเหนือของเบอร์กันดีที่ขึ้นชื่อเรื่อง Chardonnay กลิ่นแร่ธาตุ",
+    "hierarchy": ["france", "burgundy", "chablis"],
+    "facts": { "soil": "Kimmeridgian limestone" },
+    "center": [3.79, 47.82]
+  },
+  {
+    "id": "appellation-chablis-aoc",
+    "type": "appellation",
+    "parentId": "subregion-chablis-area",
+    "slug": "chablis-aoc",
+    "name_en": "Chablis AOC",
+    "name_th": "ชาบลิส AOC",
+    "description_en": "Classic Chablis appellation focused on dry white wines.",
+    "description_th": "แอปเปลลาซิยง Chablis แบบคลาสสิก เน้นไวน์ขาวแห้ง",
+    "hierarchy": ["france", "burgundy", "chablis", "chablis-aoc"],
+    "facts": {
+      "classification": "AOC",
+      "grapes": ["Chardonnay"],
+      "wineStyle": "Dry White"
+    },
+    "center": [3.79, 47.82]
+  },
+  {
+    "id": "country-italy",
+    "type": "country",
+    "parentId": null,
+    "slug": "italy",
+    "name_en": "Italy",
+    "name_th": "อิตาลี",
+    "description_en": "Italy offers diverse indigenous grapes and historic appellations.",
+    "description_th": "อิตาลีมีความหลากหลายขององุ่นท้องถิ่นและแอปเปลลาซิยงที่มีประวัติยาวนาน",
+    "hierarchy": ["italy"],
+    "facts": { "climate": "Mediterranean to Alpine" },
+    "center": [12.5674, 41.8719]
+  },
+  {
+    "id": "country-spain",
+    "type": "country",
+    "parentId": null,
+    "slug": "spain",
+    "name_en": "Spain",
+    "name_th": "สเปน",
+    "description_en": "Spain combines traditional and modern winemaking across many DO regions.",
+    "description_th": "สเปนผสานการทำไวน์แบบดั้งเดิมและสมัยใหม่ในหลายภูมิภาค DO",
+    "hierarchy": ["spain"],
+    "facts": { "climate": "Mediterranean and continental" },
+    "center": [-3.7492, 40.4637]
+  },
+  {
+    "id": "country-usa",
+    "type": "country",
+    "parentId": null,
+    "slug": "usa",
+    "name_en": "USA",
+    "name_th": "สหรัฐอเมริกา",
+    "description_en": "The USA includes major AVA-based regions such as Napa and Sonoma.",
+    "description_th": "สหรัฐอเมริกามีภูมิภาค AVA สำคัญ เช่น Napa และ Sonoma",
+    "hierarchy": ["usa"],
+    "facts": { "climate": "Varied" },
+    "center": [-95.7129, 37.0902]
+  },
+  {
+    "id": "country-australia",
+    "type": "country",
+    "parentId": null,
+    "slug": "australia",
+    "name_en": "Australia",
+    "name_th": "ออสเตรเลีย",
+    "description_en": "Australia is known for Shiraz and modern regional branding.",
+    "description_th": "ออสเตรเลียมีชื่อเสียงเรื่อง Shiraz และการสร้างแบรนด์ภูมิภาคสมัยใหม่",
+    "hierarchy": ["australia"],
+    "facts": { "climate": "Warm to maritime" },
+    "center": [133.7751, -25.2744]
+  }
+]
